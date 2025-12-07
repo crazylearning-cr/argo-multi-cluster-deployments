@@ -10,7 +10,7 @@ spec:
     targetRevision: main
     path: kustomize/overlays/dev
   destination:
-    server: https://26FCF9DA4ACDE97CFFA0688F62D86021.gr7.us-east-1.eks.amazonaws.com
+    server: https://0CABB8C2A283D3359D477288A8211A71.yl4.us-east-1.eks.amazonaws.com
     namespace: dev
   syncPolicy:
     automated:
@@ -31,7 +31,7 @@ spec:
     targetRevision: main
     path: kustomize/overlays/prod
   destination:
-    server: https://D25809CD9BA2111831BEEE33CFFEB9AF.gr7.ap-south-1.eks.amazonaws.com
+    server: https://4F021F4CAD8A1F0D2BD7FE1970FA117C.gr7.ap-south-1.eks.amazonaws.com
     namespace: prod
   syncPolicy:
     automated:

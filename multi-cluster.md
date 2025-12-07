@@ -1,12 +1,12 @@
 Agenda:
 
-Multi cluster creation
-Adding multiple clusters to ArgoCD
-Application specification for multi cluster deployments
-Kustomize
-ApplicationSets
-RBAC
-Argo rollouts Rollback vs Git state
+1. Multi cluster creation
+2. Adding multiple clusters to ArgoCD
+3. Application specification for multi cluster deployments
+4. Kustomize
+5. ApplicationSets
+6. RBAC
+7. Argo rollouts Rollback vs Git state
 
 
 Helm and Analysis template - Ranjini
