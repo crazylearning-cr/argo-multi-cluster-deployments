@@ -1,3 +1,16 @@
+Agenda:
+
+Multi cluster creation
+Adding multiple clusters to ArgoCD
+Application specification for multi cluster deployments
+Kustomize
+ApplicationSets
+Argo rollouts Rollback vs Git state
+RBAC
+
+Helm and Analysis template - Ranjini
+
+
 Cluster creation
 
 ```
@@ -336,6 +349,11 @@ sudo chmod +x /usr/local/bin/kubectl-argo-rollouts
 
 Note: since we are using rollout objects, it's custom controller has to be available in both the clusters
 
+Install ingress controllers in both the clusters
+```
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.10.0/deploy/static/provider/aws/deploy.yaml
+```
+
 ArgoCLI login
 ```
 $ argocd login localhost:8080 --username admin  --password gaSkGcZsc0G5xIzW
@@ -383,7 +401,7 @@ create a kustomization.yaml file where apply only patches wherever changes requi
 For eg: replica differs for dev and prod, its 2 and 4 respectively. We apply patch only for replica in kustomization.yaml file
 
 
-Kustomize:
+##Kustomize:
 
 base - contain original k8s manifest files 
 overlays - environment specific variables
@@ -620,7 +638,7 @@ images:
 ```
 
 
-Helm
+##Helm
 
 Create Argo applications with helm values
 
