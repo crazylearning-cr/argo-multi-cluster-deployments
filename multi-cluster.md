@@ -5,10 +5,13 @@ Adding multiple clusters to ArgoCD
 Application specification for multi cluster deployments
 Kustomize
 ApplicationSets
-Argo rollouts Rollback vs Git state
 RBAC
+Argo rollouts Rollback vs Git state
+
 
 Helm and Analysis template - Ranjini
+
+
 
 
 Cluster creation
@@ -405,6 +408,9 @@ For eg: replica differs for dev and prod, its 2 and 4 respectively. We apply pat
 
 base - contain original k8s manifest files 
 overlays - environment specific variables
+
+
+![alt text](image.png)
 
 Create Argoapplications
 
