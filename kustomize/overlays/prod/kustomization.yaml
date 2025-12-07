@@ -8,8 +8,8 @@ patches:
     patch: |-
       - op: replace
         path: /spec/replicas
-        value: 2
+        value: 3
 
 images:
   - name: udemykcloud534/guestbook
-    newTag: yellow
+    newTag: green
