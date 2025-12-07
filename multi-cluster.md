@@ -636,6 +636,11 @@ images:
   - name: udemykcloud534/guestbook
     newTag: yellow
 ```
+Promote to next level
+```
+kubectl argo rollouts promote guestbook-ui -n dev
+
+
 
 
 ##Helm
