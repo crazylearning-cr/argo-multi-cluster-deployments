@@ -10,9 +10,9 @@ spec:
   destinations:
     # ✅ Dev-Cluster (us-east-1)
     - namespace: '*'
-      server: https://1440EF309B7D8B599579E7FFC69D84F2.gr7.us-east-1.eks.amazonaws.com
+      server: https://26FCF9DA4ACDE97CFFA0688F62D86021.gr7.us-east-1.eks.amazonaws.com
     - namespace: '*'
-      server: https://A62F1AB01F99B8668087E1A776089FE2.yl4.ap-south-1.eks.amazonaws.com
+      server: https://D25809CD9BA2111831BEEE33CFFEB9AF.gr7.ap-south-1.eks.amazonaws.com
   # Allow creating Namespaces and all namespaced resources
   clusterResourceWhitelist:
     - group: ""
